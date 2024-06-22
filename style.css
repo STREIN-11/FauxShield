@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    --bg-color: #c800ff;
+    --main-color: #8601a0;
+    --hover-color: #8a2be2;
+    --text-color: #000000;
+    --sec-text-color: #2a2a2a;
+    --big-text: 5rem;
+    --med-text: 2.5rem;
+    --p-text: 1.2rem;
+    --logo-font: 1.6rem;
+    --nav-font: 1.2rem;
+}
+section{
+    padding: 3rem 12rem;
+}
+header{
+    background: #fff;
+    border: 1px solid #ffffff;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 8rem;
+    padding: 1.8rem;
+}
+.logo h1{
+    color: var(--text-color);
+    font-size: var(--logo-font);
+    font-weight: 700;
+    text-shadow: 0px 1px 2px var(--text-color);
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: auto;
+}
+.logo span{
+    color: var(--main-color);
+    text-shadow: 0px 1px 2px var(--main-color);
+    text-align: left;
+    margin-right: auto;
+}
+.navbar{
+    display: flex;
+    gap: 2rem;
+    transition: all ease .5s;
+}
+.navbar a{
+    font-size: var(--nav-font);
+    color: var(--text-color);
+    font-weight: 500;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: var(--main-color);
+    border-bottom: 1px solid var(--main-color);
+}
+.menu{
+    visibility: hidden;
+}
+.home-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.home-section img{
+    position: relative;
+    width: 32vw;
+    cursor: pointer;
+}
+.home-content h2{
+    color: var(--main-color);
+    font-size: var(--med-text);
+    font-weight: 600;
+}
+.home-content h1{
+    color: var(--text-color);
+    font-size: var(--big-text);
+    font-weight: 800;
+    line-height: 5rem;
+}
+.home-content span{
+    color: var(--main-color);
+    font-weight: 600;
+}
+.home-content p,
+.passion-section p{
+    color: var(--sec-text-color);
+    font-size: var(--p-text);
+    margin: 1rem 0 3rem 0;
+}
+.btn{
+    background-color: var(--main-color);
+    border-radius: 5px;
+    padding: 14px 18px;
+    margin-right: 3rem;
+}
+.home-content a, .about-content a{
+    color: #fff;
+    font-size: var(--p-text);
+    font-weight: 500;
+}
+.btn:hover{
+    background-color: var(--hover-color);
+}
+.passion-section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 6rem 0 2rem 0;
+    gap: 2rem;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item img{
+    position: relative;
+    width: 7vw;
+    cursor: pointer;
+}
+.item h2{
+    color: var(--main-color);
+    font-size: var(--p-text);
+    font-weight: 600;
+}
+.about-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    margin: 5rem 0 2rem 0;
+}
+.about-section img{
+    position: relative;
+    width: 30vw;
+    cursor: pointer;
+}
+.about-content h2{
+    color: var(--main-color);
+    font-size: var(--med-text);
+    font-weight: 600;
+}
+.about-content p{
+    color: var(--sec-text-color);
+    font-size: var(--p-text);
+    margin: 1rem 0 3rem 0;
+}
+footer{
+    background: var(--main-color);
+    color: #fff;
+    font-size: var(--p-text);
+    padding: 1.5rem;
+    text-align: center;
+}
