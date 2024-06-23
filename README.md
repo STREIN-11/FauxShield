@@ -65,4 +65,4 @@ Acknowledgments
 We would like to thank the open-source community and the creators of the pre-trained models used in this project.
 
 Contact
-For any questions or feedback, please contact Akash Das at akd270302@gamil.com.
+For any questions or feedback, please contact Debojyoti Bhuinya at bhuinyadebojyoti@gmail.com.
