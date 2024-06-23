@@ -64,8 +64,10 @@
         }
 
         .nav img {
-            width: 35px;
-            margin-left: 10px; /* Add margin to the left for spacing */
+            width: 20%;
+            alignment: center;
+            margin-left: 40px;
+            margin-right: 40px /* Add margin to the left for spacing */
         }
 
         .nav .navbar-text {
@@ -83,7 +85,7 @@
 
         .nav ul li {
             margin: 0 10px;
-            font-size: 14px;
+            font-size: 20px;
             cursor: pointer;
         }
 
@@ -116,8 +118,7 @@
 </head>
 <body class="hero">
     <div class="nav">
-        <img src='src/assets/logo.png' alt="">
-        <p class="navbar-text">Deepfake AI</p>
+    <img src='src/assets/logo-no-background.png' alt="">
         <ul>
         <li><a href="index.php">Home</a></li>
         <!-- <li>Deepfake Detector</li> -->

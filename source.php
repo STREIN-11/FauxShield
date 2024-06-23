@@ -22,23 +22,30 @@
         }
 
         .nav img {
-            width: 35px;
+            alignment: center;
+            width:20%;
+            margin-left: 40px;
+            margin-right: 40px; /* Add margin to the left for spacing */
         }
 
-        .nav p {
+        .nav .navbar-text {
             display: block;
             font-size: x-large;
-            margin-top: 0.67em;
+            margin: 0 auto; /* Center the text */
         }
+
+        .nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
         .nav ul li {
-        display: inline-block;
-        list-style: none;
-        margin: 5px 5px;
-        font-size: 14px;
-        padding-left: 20px;
-        text-align: center;
-        cursor: pointer;
-      }
+            margin: 0 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
         .hero {
             width: 100%;
             height: 120%;
@@ -60,8 +67,7 @@
 </head>
 <body class="hero">
 <div class="nav">
-    <img src='src/assets/logo.png' alt="">
-    <p class="navbar-text">Deepfake AI</p>
+    <img src='src/assets/logo-no-background.png' alt=""> 
     <ul>
         <li><a href="index.php">Home</a></li>
         <!-- <li>Deepfake Detector</li> -->

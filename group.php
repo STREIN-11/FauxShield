@@ -32,8 +32,10 @@
         }
 
         .nav img {
-            width: 35px;
-            margin-left: 10px; /* Add margin to the left for spacing */
+            alignment: center;
+            width:20%;
+            margin-left: 40px;
+            margin-right: 40px /* Add margin to the left for spacing */
         }
 
         .nav .navbar-text {
@@ -51,7 +53,7 @@
 
         .nav ul li {
             margin: 0 10px;
-            font-size: 14px;
+            font-size: 20px;
             cursor: pointer;
         }
 
@@ -65,7 +67,6 @@
         }
         footer {
             width: 100%;
-            background: #333;
             color: #fff;
             padding: 4px 0;
             position: fixed;
@@ -113,8 +114,7 @@
 </head>
 <body class="hero">
 <div class="nav">
-        <img src='src/assets/logo.png' alt="">
-        <p class="navbar-text">Deepfake AI</p>
+<img src='src/assets/logo-no-background.png' alt="">
         <ul>
         <li><a href="index.php">Home</a></li>
         <!-- <li>Deepfake Detector</li> -->
@@ -127,7 +127,7 @@
         <div class="bg-gray-800 text-white p-8 rounded-lg shadow-lg max-w-4xl mx-auto">
             <header class="mb-8">
                 <div class="text-center">
-                    <h1 class="text-4xl font-bold text-pink-500 mb-2">TECH MANIACS</h1>
+                    <!-- <h1 class="text-4xl font-bold text-pink-500 mb-2">TECH MANIACS</h1> -->
                 </div>
                 <div class="flex justify-center space-x-4 mt-4">
                     <a href="#" class="text-pink-500"><i class="fab fa-facebook-f"></i></a>

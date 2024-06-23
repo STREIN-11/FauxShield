@@ -28,8 +28,9 @@
         }
 
         .nav img {
-            width: 35px;
-            margin-left: 10px; /* Add margin to the left for spacing */
+            alignment: center;
+            margin-left: 40px;
+            margin-right: 40px /* Add margin to the left for spacing */
         }
 
         .nav .navbar-text {
@@ -47,7 +48,7 @@
 
         .nav ul li {
             margin: 0 10px;
-            font-size: 14px;
+            font-size: 20px;
             cursor: pointer;
         }
 
@@ -63,7 +64,6 @@
         footer {
             width: 100%;
             height: 10%;
-            background: #333;
             color: #fff;
             padding: 4px 0;
             position: fixed;
@@ -176,8 +176,7 @@
 </head>
 <body class="hero">
 <div class="nav">
-    <img src='src/assets/logo.png' alt="">
-    <p class="navbar-text">Deepfake AI</p>
+    <img src='src/assets/logo-no-background.png' alt="">
     <ul>
         <li><a href="index.php">Home</a></li>
         <!-- <li>Deepfake Detector</li> -->
@@ -188,8 +187,8 @@
 <div class = "remain">
     <div class="hero-text">
         <div id="text">
-        <h1>Detection of DeepFake Videos and Photos</h1>
-        <p>By using this system you can identify and detect DeepFake videos and images</p>
+        <h1>Upload ∙ Process ∙ Detect</h1>
+        <p>An All-in-one integrated platform to identify and detect DeepFake videos, images and audios.</p>
     </div>
         <form id="uploadForm" enctype="multipart/form-data" method="POST">
             <input type="file" name="fileToUpload" id="fileToUpload">
