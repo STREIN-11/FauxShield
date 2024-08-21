@@ -19,12 +19,8 @@ OpenCV
 Librosa (for audio processing)
 MTCNN (for face detection)
 Other necessary libraries specified in requirements.txt
-Installation
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/yourusername/deepfake-detection-multimodal.git
-Navigate to the project directory:
+
+## _Navigate to the project directory_:
 bash
 Copy code
 cd deepfake-detection-multimodal
