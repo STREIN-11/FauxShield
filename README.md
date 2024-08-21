@@ -30,8 +30,7 @@ pip install -r requirements.txt
 Usage
 Data Preparation: Ensure you have your video, audio, and image data organized. Follow the instructions in data_preparation.md for guidance on how to prepare your datasets.
 
-Training: To train the model, run:
-
+**`Training:`** To train the model, run:
 bash
 Copy code
 python train.py --data_path /path/to/your/data
@@ -50,7 +49,7 @@ Audio Detection: Reached an impressive accuracy of 99.05%, highlighting its stre
 Model Architecture
 The project utilizes a combination of convolutional neural networks (CNNs) for image and video data and recurrent neural networks (RNNs) for audio data. The models are fine-tuned using transfer learning to leverage pre-trained weights and improve accuracy.
 
-Contribution
+## Contribution
 We welcome contributions to enhance the project. Please fork the repository and create a pull request with your changes. Ensure that your contributions are well-documented and include relevant test cases.
 
 ## License
