@@ -21,9 +21,8 @@ To run this project, you will need:
 Other necessary libraries specified in requirements.txt
 
 ## _Navigate to the project directory_:
-bash
-Copy code
-cd deepfake-detection-multimodal
+bash Copy code
+**`cd deepfake-detection-multimodal`**
 Install the required libraries:
 bash
 Copy code
@@ -62,5 +61,7 @@ We would like to thank the open-source community and the creators of the pre-tra
 
 Contact
 For any questions or feedback, please contact 
-[Debojyoti Bhuinya](https://debojyotibhuinya-portfolio.netlify.app/).
-[Subhamay Ganguly](https://www.linkedin.com/in/subhamay-ganguly-526972248/).
+[Debojyoti Bhuinya](https://debojyotibhuinya-portfolio.netlify.app/),
+[Subhamay Ganguly](https://www.linkedin.com/in/subhamay-ganguly-526972248/),
+[Akash Das](https://www.linkedin.com/in/akash-das-80b356230/),
+[Gargi Chakraborty](https://gargichakraborty105.github.io/Portfolio/).
