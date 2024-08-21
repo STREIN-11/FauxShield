@@ -62,4 +62,5 @@ We would like to thank the open-source community and the creators of the pre-tra
 
 Contact
 For any questions or feedback, please contact 
-[Debojyoti Bhuinya](bhuinyadebojyoti@gmail.com).
+[Debojyoti Bhuinya]([bhuinyadebojyoti@gmail.com](https://debojyotibhuinya-portfolio.netlify.app/)).
+[Subhamay Ganguly](https://www.linkedin.com/in/subhamay-ganguly-526972248/).
