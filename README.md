@@ -4,7 +4,7 @@ This project focuses on detecting deepfakes using a comprehensive approach that 
 
 Features
 Multimodal Detection: Integrates video, audio, and image data for deepfake detection.
-High Accuracy:
+## High Accuracy:
 Video detection: High performance
 Image detection: 90.85% accuracy
 Audio detection: 99.05% accuracy
