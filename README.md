@@ -41,12 +41,12 @@ python evaluate.py --model_path /path/to/your/model --data_path /path/to/your/te
 Prediction: For predicting whether a given input is a deepfake, run:
 bash
 Copy code
-python predict.py --input_path /path/to/your/input --model_path /path/to/your/model
+python `predict.py --input_path /path/to/your/input --model_path /path/to/your/model`
 Results
-Video Detection: Our video detection model has shown high performance, making it reliable for identifying deepfakes in video content.
-Image Detection: Achieved an accuracy of 90.85%, proving its effectiveness in detecting fake images.
-Audio Detection: Reached an impressive accuracy of 99.05%, highlighting its strength in identifying manipulated audio.
-Model Architecture
+**Video Detection:** Our video detection model has shown high performance, making it reliable for identifying deepfakes in video content.
+**Image Detection:** Achieved an accuracy of `90.85%`, proving its effectiveness in detecting fake images.
+**Audio Detection:** Reached an impressive accuracy of `99.05%`, highlighting its strength in identifying manipulated audio.
+**Model Architecture**
 The project utilizes a combination of convolutional neural networks (CNNs) for image and video data and recurrent neural networks (RNNs) for audio data. The models are fine-tuned using transfer learning to leverage pre-trained weights and improve accuracy.
 
 ## Contribution
