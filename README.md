@@ -53,13 +53,13 @@ The project utilizes a combination of convolutional neural networks (CNNs) for i
 Contribution
 We welcome contributions to enhance the project. Please fork the repository and create a pull request with your changes. Ensure that your contributions are well-documented and include relevant test cases.
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgments
+### Acknowledgments
 We would like to thank the open-source community and the creators of the pre-trained models used in this project.
 
-Contact
+### Contact
 For any questions or feedback, please contact 
 [Debojyoti Bhuinya](https://debojyotibhuinya-portfolio.netlify.app/),
 [Subhamay Ganguly](https://www.linkedin.com/in/subhamay-ganguly-526972248/),
