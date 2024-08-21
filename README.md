@@ -13,11 +13,11 @@ Multimodal Detection: Integrates video, audio, and image data for deepfake detec
 Prerequisites
 To run this project, you will need:
 
-Python 3.7 or higher
-TensorFlow or PyTorch
-OpenCV
-Librosa (for audio processing)
-MTCNN (for face detection)
+### Python 3.7 
+### TensorFlow or PyTorch
+### OpenCV
+### Librosa (for audio processing)
+### MTCNN (for face detection)
 Other necessary libraries specified in requirements.txt
 
 ## _Navigate to the project directory_:
