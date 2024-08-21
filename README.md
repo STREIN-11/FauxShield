@@ -61,4 +61,5 @@ Acknowledgments
 We would like to thank the open-source community and the creators of the pre-trained models used in this project.
 
 Contact
-For any questions or feedback, please contact Debojyoti Bhuinya at bhuinyadebojyoti@gmail.com.
+For any questions or feedback, please contact 
+[Debojyoti Bhuinya](bhuinyadebojyoti@gmail.com).
